@@ -67,6 +67,9 @@ body {
                 line-height: 1.5;
                 color: #232323;
             }
+            ul li::before {
+                content: "\f058"
+            }
             ul li i {
                 color: #6fce66;
             }
