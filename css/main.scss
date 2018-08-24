@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+    ;
+}
+
+body {
+    max-width: 1400px;
+    widows: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    .top{
+        text-align: center;
+    }
+    .contaner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
