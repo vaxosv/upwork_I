@@ -30,23 +30,39 @@ body {
         max-width: 100%;;
 
         .con1 {
-            .img{
-
-            }
+            margin: 10px;
             max-width: 660px;
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            .img {
+                max-width: 660px;
+                width: 100%;
+                height: 100px;
+                background-image: url("../images/Untitled-1.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
         }
 
         .con2 {
-            .img {
-                
-            }
+            margin: 10px;
             max-width: 660px;
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            .img2 {
+                max-width: 660px;
+                width: 100%;
+                height: 100px;
+                background-image: url("../images/Untitled-2.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
         }
 
     }
