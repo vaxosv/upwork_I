@@ -30,14 +30,20 @@ body {
         max-width: 100%;;
 
         .con1 {
-            width: 660px;
+            .img{
+
+            }
+            max-width: 660px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
         .con2 {
-            width: 660px;
+            .img {
+                
+            }
+            max-width: 660px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,3 +52,10 @@ body {
     }
 }
 
+@media only screen and (max-width: 500px){
+
+    .contaner {
+        flex-direction: column;
+        align-items: center;
+    }
+}
