@@ -54,6 +54,10 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center; }
+      body .contaner .con1 ul li i {
+        color: #42d256; }
+      body .contaner .con1 ul li:last-child i {
+        color: #42d25500; }
     body .contaner .con2 {
       margin: 10px;
       max-width: 660px;
@@ -75,6 +79,14 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center; }
+      body .contaner .con2 ul li i {
+        padding-right: 10px; }
+      body .contaner .con2 ul li i {
+        color: #42d256; }
+      body .contaner .con2 ul li i {
+        color: #42d25500; }
+      body .contaner .con2 ul li:last-child i {
+        color: #42d256; }
 
 @media only screen and (max-width: 500px) {
   .contaner {

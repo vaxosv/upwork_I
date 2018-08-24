@@ -10,7 +10,6 @@
     ;
 }
 $top_padding: 10px;
-
 body {
     max-width: 1400px;
     min-width: 320px;
@@ -45,6 +44,13 @@ body {
                 background-repeat: no-repeat;
                 background-position: center;
             }
+
+            ul li i {
+                color: #42d256;
+            }
+            ul li:last-child i{
+                color: #42d25500
+            }
         }
 
         .con2 {
@@ -62,6 +68,19 @@ body {
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
+            }
+            ul li i{
+                padding-right: 10px;
+            }
+            ul li i{
+                color: #42d256;
+            }
+            ul li i{
+                color: #42d25500
+            }
+
+            ul li:last-child i{
+                color: #42d256;
             }
         }
 
