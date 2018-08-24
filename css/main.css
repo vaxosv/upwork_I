@@ -11,6 +11,7 @@
 
 body {
   max-width: 1400px;
+  min-width: 320px;
   widows: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,11 +25,35 @@ body {
   align-items: center;
   background-color: white; }
   body .top {
-    text-align: center; }
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px; }
   body .contaner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    max-width: 100%; }
+    body .contaner .con1 {
+      width: 660px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    body .contaner .con2 {
+      width: 660px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }

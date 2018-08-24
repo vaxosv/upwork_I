@@ -9,20 +9,40 @@
     outline: none;
     ;
 }
+$top_padding: 10px;
 
 body {
     max-width: 1400px;
+    min-width: 320px;
     widows: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
+
     .top{
         text-align: center;
+        padding-left: $top_padding;
+        padding-right: $top_padding;
     }
     .contaner {
         display: flex;
-        justify-content: space-between;
+        max-width: 100%;;
+
+        .con1 {
+            width: 660px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .con2 {
+            width: 660px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
     }
 }
 

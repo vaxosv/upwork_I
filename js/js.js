@@ -1,1 +1,1 @@
-alert("document is ready")
+// alert("document is ready")
