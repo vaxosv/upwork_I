@@ -62,13 +62,15 @@ body {
                 
                 color: #282828;
             }
-            ul li {
-                
+            ul li{
                 line-height: 1.5;
                 color: #232323;
-            }
-            ul li::before {
-                content: "\f058"
+                position: relative;
+                &:before {
+                    font-family: FontAwesome;
+                    content: "\f058";
+                    color: #6fce66;
+                }
             }
             ul li i {
                 color: #6fce66;
@@ -76,8 +78,9 @@ body {
             ul li:last-child{
                 color: #b5b5b5;
             }
-            ul li:last-child i {
-                color: #42d25500
+            ul li:last-child::before{
+                content: "";
+                padding: 8px;
             }
         }
         .con2 {
@@ -101,18 +104,18 @@ body {
                 color: #282828;
             }
             ul li {
-                
                 line-height: 1.5;
                 color: #b5b5b5;
-            }
-            ul li i {
-                color: #42d25500;
+                padding-left: 14px;
             }
             ul li:last-child{
+                padding-left: 0px;
                 color: #222222;
-            }
-            ul li:last-child i {
-                color: #42d256;
+                &:before {
+                    font-family: FontAwesome;
+                    content: "\f058";
+                    color: #6fce66;
+                }
             }
         }
     }

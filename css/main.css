@@ -61,13 +61,19 @@ body {
         color: #282828; }
       body .contaner .con1 ul li {
         line-height: 1.5;
-        color: #232323; }
+        color: #232323;
+        position: relative; }
+        body .contaner .con1 ul li:before {
+          font-family: FontAwesome;
+          content: "\f058";
+          color: #6fce66; }
       body .contaner .con1 ul li i {
         color: #6fce66; }
       body .contaner .con1 ul li:last-child {
         color: #b5b5b5; }
-      body .contaner .con1 ul li:last-child i {
-        color: #42d25500; }
+      body .contaner .con1 ul li:last-child::before {
+        content: "";
+        padding: 8px; }
     body .contaner .con2 {
       -webkit-box-shadow: 0px 0px 66px -10px #a8a8a8;
       -moz-box-shadow: 0px 0px 66px -10px #a8a8a8;
@@ -97,13 +103,15 @@ body {
         color: #282828; }
       body .contaner .con2 ul li {
         line-height: 1.5;
-        color: #b5b5b5; }
-      body .contaner .con2 ul li i {
-        color: #42d25500; }
+        color: #b5b5b5;
+        padding-left: 14px; }
       body .contaner .con2 ul li:last-child {
+        padding-left: 0px;
         color: #222222; }
-      body .contaner .con2 ul li:last-child i {
-        color: #42d256; }
+        body .contaner .con2 ul li:last-child:before {
+          font-family: FontAwesome;
+          content: "\f058";
+          color: #6fce66; }
 
 @media only screen and (max-width: 550px) {
   .contaner {
